@@ -12,6 +12,6 @@ AMYSQL是一个安全高效、简易的MySQL数据库管理Web客户端 (开源�
 - Edit Config.php
 - Start container with command:
 
-    docker run -p 81:80 --name amysql
+    docker pull itxcjm/amysql:1.0
 
-    docker run -p 81:80 --name amysql -v ./Config.php:/var/www/html/Amysql/Config.php
+    docker run -p 81:80 --name amysql -v ./Config.php:/var/www/html/Amysql/Config.php itxcjm/amysql:1.0
