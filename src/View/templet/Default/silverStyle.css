@@ -1,0 +1,1216 @@
+body {
+	font-size: 12px;
+	font-family:Arial,微软雅黑,宋体;
+	_font-family:"微软雅黑";
+	margin:0px 8px;
+	margin-right:0px;
+	-webkit-text-size-adjust:none;
+}
+dl,dt,dd,ul,li {padding:0px;margin:0px;}
+body, select, textarea, input, optgroup {
+	font-family:Arial,微软雅黑,宋体;
+	font-size:12px;
+}
+optgroup {
+	font-style:normal;
+	font-weight:bold;
+}
+form {
+	margin:0px;
+	padding:0px;
+}
+
+a {
+	cursor: pointer;
+	outline:none; 
+	color:#385063;
+	blr:expression(this.onFocus=this.blur()); /*chrome*/
+	text-decoration: none;
+}
+#h1, .h1 {
+	font-size:16px;
+	padding:6px 10px;
+	width:auto;
+	border-radius: 5px;
+	background:#fff;
+	color:#627279;
+	border:1px solid #E7E7E7;
+	margin:0px 0px 10px 0px;
+	background: url("leftbj02.gif") repeat-x left top #fff;
+	text-shadow: #fff 1px 1px 0;
+	display:inline-block;
+	font-weight:bold;
+}
+.h1 {
+	font-size:15px;
+}
+.h1 i {
+	display: inline-block;
+	margin-right:3px;
+	float:left;
+}
+.join {
+	display: inline-block;
+	font-size:18px;
+	color:#9E9DA4;
+	margin:0px 0px 15px 0px;
+}
+a.h1:hover{
+	border:1px solid #CACACA;
+}
+#localhost {
+	margin-left:15px;
+}
+
+.c {
+	clear:both;
+	height:0px;
+	font-size:0px;
+	overflow:hidden;
+}
+._c:after {
+    content: ".";
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+._c{
+    *zoom:1;
+}
+
+/* 左栏 ************************************************************************************************************************/
+
+#left {
+	background: url("leftbj.gif") repeat top right;
+	height: 100%; 
+	/*overflow: auto;*/
+}
+#left.Scroll {
+	background: url("leftbjNoBorder.gif") repeat top right;
+}
+/* 左栏下拉选项 */
+#left_navigation {
+	background:#FDFDFD;
+	left:0;
+    top:0;
+    width:180px;
+	font-size:12px;
+	margin-top:-2px;
+	display:none;
+	padding:2px;
+	text-shadow: #fff 1px 1px 0;
+}
+#left_navigation div{
+	background: url("leftbj01.gif") no-repeat bottom left;
+	border-radius:0px 0px 4px 4px;
+	margin-top:7px;
+}
+#left_navigation a{
+	margin:0px;
+	padding:2px 0px 0px 5px;
+	height:28px;
+	border-bottom:1px solid #FDFDFD;
+	color: #6588A5;
+	display:block;
+	text-decoration:none;
+}
+#left_navigation a:hover {
+	background: url("leftbj02.gif") repeat top left;
+}
+#left_navigation a:hover b{
+	color:#53748E;
+}
+#left_navigation a:hover i{
+	filter:alpha(opacity=100);
+	opacity: 1;
+}
+#left_navigation a i {
+	filter:alpha(opacity=90);
+	opacity: 0.9;
+}
+#left_navigation a i, #left_navigation a b{
+	width:25px;
+	height:25px;
+	display:inline-block;
+	float:left;
+}
+#left_navigation a b {
+	width:auto;
+	margin:5px 0px 0px 8px;
+	font-weight:normal;
+}
+.NewTag i{
+	background:url(ico.gif) no-repeat -2294px -8px;
+}
+.RecoveryTag i{
+	background:url(ico.gif) no-repeat -1406px -8px;
+}
+.SetTemplet i{
+	background:url(ico.gif) no-repeat -302px -8px;
+}
+.SetAmysql i{
+	background:url(ico.gif) no-repeat -1910px -8px;
+}
+.AmysqlSqlLog i{
+	background:url(ico.gif) no-repeat -2055px -8px;
+}
+.AmysqlWeb i{
+	background:url(ico.gif) no-repeat -373px -8px;
+}
+.LogoutAmysql i{
+	background:url(ico.gif) no-repeat -349px -8px;
+}
+.PlugAmysql i{
+	background:url(ico.gif) no-repeat -2898px -8px;
+}
+.AmysqlAllShow i{
+	background:url(ico.gif) no-repeat -1237px -8px;
+}
+
+/* 左栏列表 */
+#left_logo {
+	background: url("ico.gif") no-repeat scroll -5px -63px transparent;
+	width: 150px;
+	height:25px;
+	margin-bottom:-6px;
+	top:7px;
+	margin-top:20px;
+	cursor: pointer;
+}
+tr,td {
+	border-collapse:collapse
+}
+#AmysqlLeftList {
+	margin-top:20px;
+}
+#AmysqlLeftList ul{
+	list-style: none;
+	margin-left:14px;
+}
+#AmysqlLeftList .openlist {
+	background: url("ico.gif") no-repeat scroll -152px -45px transparent;
+	height:12px;
+	cursor: pointer;
+}
+
+#AmysqlLeftList .closelist {
+	background: url("ico.gif") no-repeat scroll -128px -45px transparent;
+	height:12px;
+	cursor: pointer;
+}
+
+#AmysqlLeftList dl {
+	/*height:20px;*/
+	width:100%;
+}
+#AmysqlLeftList dd, #AmysqlLeftList dt {
+	display:inline-block;
+	float:left;
+	padding-top:0px;
+	cursor: pointer;
+}
+#AmysqlLeftList dd {
+	width: 13px;
+	height:12px;
+}
+#AmysqlLeftList dt i, #AmysqlLeftList dt a{
+	float:left;
+	display: inline-block;
+	padding:2px 0px;
+	margin-right:1px;
+}
+#AmysqlLeftList dt a{
+	max-width: 138px;
+	word-break: break-all;	/* 强制换行 */
+	word-wrap: break-word;
+	padding:2px 4px;
+	_padding:2px 0px 2px 2px;	/* ie6 */
+}
+#AmysqlLeftList dt a:hover, #AmysqlLeftList dt a.hover{
+	border-radius: 5px;
+	background:#F5F2FB;
+	padding:1px 3px;
+	text-shadow:0px;
+	border:1px solid #D9D9E8;
+}
+#AmysqlLeftList dt a.hover{ 
+	padding:1px 3px;
+	background:#EFF0F8;
+	text-shadow: #EFEFEF 1px 1px 0;
+	_padding:2px;	/* ie6 */
+}
+#AmysqlLeftList dt em {
+	color:#717882;
+	font-weight:bold;
+}
+/* LEFT END ************************/
+
+
+/* 标签 TAG ************************************************************************************************************************/
+#navigation_body {
+	background:#fff;
+	margin:0px;
+	padding:0px;
+	font: 11px Arial;
+	width:100%;
+}
+#navigation {
+	width:100%;
+}
+#ShowBlock {
+	overflow: hidden;
+    position: relative;
+	width:1000px;
+}
+#TabList {
+	width:1000000px;
+	margin-left:0px;
+}
+#ShowBlock, #TabList, .TabItem {
+	float:left;
+}
+#navigation span, .TabItem {
+	display:block;
+	height:31px;
+}
+#navigation span font, #navigation span i {
+	display:block;
+	font: 11px Arial;
+	cursor: pointer;
+	float:left;
+}
+#navigation .text {
+	padding:9px 10px 11px 10px;
+	margin-left:5px;
+}
+
+.Normal{background:url(tag.gif) repeat 0px -34px;width:auto;float:left;}
+.Split{background:url(tag.gif) repeat 0px -170px;width:3px;float:left;}
+
+.Hover{background:url(tag.gif) repeat 0px -306px;width:auto;float:left;text-shadow: #EFEFEF 1px 1px 0;}
+
+.ActivateLeft{background:url(tag.gif) repeat 0px -204px;width:10px;float:left;}
+.ActivateCenter{background:url(tag.gif) repeat 0px -272px;width:auto;float:left;}
+.ActivateRight{background:url(tag.gif) repeat 0px -340px;width:12px;float:left;}
+
+#navigation .new{width:24px;float:left;cursor: pointer;margin-right:3px;}
+#navigation #New{background:url(tag.gif) repeat 1px -238px}
+#navigation #NewUp{background:url(tag.gif) repeat 1px -406px}
+#navigation #NewHover{background:url(tag.gif) repeat 1px -678px}
+
+#navigation .min {width:18px;float:right;cursor: pointer;margin-right:3px;background:url(tag.gif) repeat}
+#navigation #Show{background-position: 0px 0px;}
+#navigation #ShowHover{background-position:0px -640px;}
+#navigation #Close{background-position:0px -102px;}
+#navigation #CloseHover{background-position:0px -572px;}
+#navigation #CloseLock{background-position:0px -472px;}
+#navigation #Previous{background-position:0px -68px;}
+#navigation #PreviousHover{background-position:0px -538px;}
+#navigation #PreviousLock{background-position:0px -438px;}
+#navigation #Next{background-position:0px -136px;}
+#navigation #NextHover{background-position: 0px -606px;}
+#navigation #NextLock{background-position:0px -506px;}
+
+#navigation .ItemClose{background:url(tag.gif) repeat 0px -391px;width:14px;height:15px;margin:9px 3px 10px 8px}
+#navigation .ItemCloseNow{background:url(tag.gif) repeat 0px -374px;width:14px;height:15px;margin:9px 3px 10px 8px}
+/* TAG END ************************/
+
+
+
+/* 内容相关 ************************************************************************************************************************/
+#Content {
+	margin:0px;
+	margin-left:2px;
+	background:#fff;
+	padding:0px;
+	width:100%;
+}
+
+#body {
+	margin-top:5px;
+	/*position: relative;*/
+	width:99%;
+	background: url("body.gif") repeat-x left top;
+}
+#LoadingBlock {
+	padding:10px 30px;
+}
+#loading {
+	width:500px;
+	height:200px;
+	background:url(../../images/loading.gif) no-repeat left top
+}
+
+.input{
+	width: 370px;
+	padding: 5px;
+	margin: 0px;
+	height:18px;
+	background: white url(bg-textbox.gif) top center repeat-x;
+	color: #555;
+	border: 1px solid #CCC;
+	outline: 0;
+	font-size:14px;
+	font-family:Arial,宋体;
+}
+input[type="button"],input[type="submit"] {
+    line-height: 18px;
+    padding: 2px 4px;
+    border-radius: 3px;
+    background: #f3f3f3;
+    background-image: linear-gradient(-189deg, #ffffff 49%,#eeeeee 81%);
+    border: 1px solid #b6b6b6;
+    cursor: pointer;
+    margin: 0px 3px;
+    color: #202020;
+    font-size: 12px;
+}
+#SubmitDom {
+	margin: 0px;
+    padding: 3px 6px;
+}
+/* END ************************/
+
+
+/* Ico *********************/
+.ico_localhost {
+	background: url("ico.gif") no-repeat scroll -375px -41px transparent;
+	height: 18px;
+	width: 16px;
+}
+.ico_database {
+	background: url("ico.gif") no-repeat scroll -17px -41px transparent;
+	height: 18px;
+	width: 15px;
+}
+.ico_tabel {
+	background: url("ico.gif") no-repeat scroll -68px -40px transparent;
+	height: 18px;
+	width: 17px;
+}
+.ico_tabel_views {
+	background: url("ico.gif") no-repeat scroll -430px -43px transparent;
+	height: 18px;
+	width: 17px;
+}
+.ico {
+	text-indent: -9000px;
+	width:20px;
+	margin-left:20px;
+	height:20px;
+	display:block;
+	float:left;
+	text-align:left;
+}
+.ico2 {
+	line-height: 9000px;
+	width:16px;
+	margin-left:10px;
+	height:16px;
+	display:inline-block;
+	vertical-align:middle;
+	overflow:hidden;
+}
+.ico_open2 {
+	background:url(all.gif) repeat 0px -342px;
+}
+.ico_del2 {
+	background:url(all.gif) repeat 0px -263px;
+}
+.ico_edit2 {
+	background:url(all.gif) repeat -321px -29px;
+}
+.ico_save2 {
+	background:url(all.gif) repeat -229px -238px;
+}
+.ico_renovate2 {
+	background:url(all.gif) repeat -274px -316px;
+}
+.ico_PrimeKey2 {
+	background:url(all.gif) repeat -182px -160px;
+}
+.ico_only2 {
+	background:url(all.gif) repeat -92px -472px;
+}
+.ico_index2 {
+	background:url(all.gif) repeat -231px -369px;
+}
+.ico_sqlsuccess2 {
+	background:url(all.gif) repeat -41px -264px;
+}
+
+.ico_browse2 {
+	background:url(all.gif) repeat -44px -446px;
+}
+.ico_structure2 {
+	background:url(all.gif) repeat -273px -446px;
+}
+.ico_search2 {
+	background:url(all.gif) repeat -365px -107px;
+}
+.ico_insert2 {
+	background:url(all.gif) repeat -90px -264px;
+}
+
+.ico_DESC {
+	background:url(all.gif) repeat -112px -339px;
+}
+.ico_ASC {
+	background:url(all.gif) repeat -158px -338px;
+}
+
+.ico_browse {
+	background:url(all.gif) repeat -249px -442px;
+}
+.ico_edit {
+	background:url(all.gif) repeat -343px -25px;
+}
+.ico_save {
+	background:url(all.gif) repeat -251px -234px;
+}
+.ico_export {
+	background:url(all.gif) repeat -295px -260px;
+}
+.ico_del {
+	background:url(all.gif) repeat -20px -260px;
+}
+.ico_PrimeKey {
+	background:url(all.gif) repeat -203px -156px;
+}
+.ico_only {
+	background:url(all.gif) repeat -112px -468px;
+}
+.ico_index {
+	background:url(all.gif) repeat -251px -363px;
+}
+.ico_AddLint {
+	background:url(all.gif) repeat -387px -437px;
+}
+
+.ico_select {
+	margin-left:10px;
+	height:16px;
+	background:url(all.gif) repeat -207px -286px;
+}
+
+.ico_sqlsuccess {
+	background:url(all.gif) repeat -65px -261px;
+	margin:0px 5px;
+}
+.ico_sqlError {
+	background:url(all.gif) repeat -430px -104px;
+	margin:0px 5px;
+}
+
+.ico_copyright {
+	background:url(all.gif) repeat -182px -133px;
+	bottom: 5px;
+	left: 1px;
+	width:42px;
+	position: absolute;
+	height:20px;
+}
+/* Ico END ******************/
+
+
+#T_Navigation {
+	width:900px;
+}
+#T_Navigation font{
+	font-size: 12px;
+    font-weight: normal;
+}
+/* 内容导航条 Navigation ***********/
+#CB_Navigation {
+	/*width:700px;*/
+}
+#C_Navigation ul {
+	margin:0px;
+	padding:0px;
+}
+#C_Navigation {
+	height:30px;
+	margin:0px 6px 0px 0px;
+	padding:0px;
+	padding-left:15px;
+	color:#627279;
+	text-shadow: white 1px 1px 0;
+	width:900px;
+}
+#C_Navigation li{
+	float:left;
+	list-style-type: none;
+	border:1px solid #E3E3E3;
+	border-bottom:1px;
+	margin-right:3px;
+	background:#EEEEEE;
+	height:23px;
+	margin-bottom:-3px;
+	padding:3px 4px;
+	cursor: pointer;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+	background: url("leftbj02.gif") repeat-x left top #fff;
+}
+#C_Navigation li.active{
+	border:2px solid #DDDCE4;
+	border-bottom:0px;
+	background: url("bg-textbox.gif") repeat-x left top #fff;
+	margin-top:-1px;
+	height:25px;
+	position: relative;
+	z-index:3;
+	/*-moz-box-shadow:1px -1px 0px #E4E4E4; 
+	-webkit-box-shadow:1px -1px 0px #E4E4E4; */
+}
+#C_Navigation li.hover{
+	border:1px solid #E3E3E3;
+	border-bottom:0px;
+	margin-top:-2px;
+	height:25px;
+	position: relative;
+	z-index:3;
+}
+#C_Navigation li.active b{
+	font-size:14px;
+	color:#5C6A85;
+}
+
+#C_Navigation li i{
+	height:24px;
+	width:24px;
+	display:block;
+	float:left;
+	margin-left:2px;
+}
+#C_Navigation li b{
+	display:block;
+	float:left;
+	font-size:14px;
+	margin-left: 2px;
+	margin-right: 1px;
+    padding-top: 3px;
+	font-weight:bold;
+	cursor: pointer;
+}
+
+#N_Engines i{
+	background:url(ico.gif) repeat -2952px -8px;
+}
+#N_Privileges i{
+	background:url(ico.gif) repeat -1070px -10px;
+}
+#N_ShowProcesslist i{
+	background:url(ico.gif) repeat -1140px -10px;
+}
+
+#N_ShowSqlHelp i{
+	background:url(ico.gif) repeat -38px -10px;
+}
+
+#N_ShowAbout i{
+	background:url(ico.gif) repeat -183px -10px;
+}
+
+#N_browse i{
+	background:url(ico.gif) repeat -2245px -10px;
+}
+
+#N_structure i, #N_TableList i{
+	background:url(ico.gif) repeat -253px -10px;
+}
+
+#N_DatabaseList i{
+	background:url(ico.gif) repeat -2004px -8px;
+}
+
+#N_search i{
+	background:url(ico.gif) repeat -566px -10px;
+}
+
+#N_insert i, #N_TableAdd i, #N_DatabaseAdd i{
+	background:url(ico.gif) repeat -2678px -10px;
+}
+
+#N_empty i{
+	background:url(ico.gif) repeat -109px -10px;
+}
+
+#N_del i{
+	background:url(ico.gif) repeat -686px -10px;
+}
+#N_empty b, #C_Navigation li#N_empty b{
+	color:#0099FF;
+}
+#N_del b, #C_Navigation li#N_del b {
+	color:red;
+}
+#C_Navigation li#N_manage {
+	padding:3px 1px;
+	/*float:right;*/
+}
+#N_manage i{
+	background:url(ico.gif) no-repeat -2925px -8px;
+}
+#C_Navigation li#N_left {
+	padding:3px 1px;
+}
+#C_Navigation #N_left i{
+	display:none;
+}
+#C_Navigation #N_left b{
+	font-weight:normal;
+	font-size:16px;
+	color:#A2A3B3;
+	padding:3px;
+}
+/* Navigation END ******************/
+
+
+
+/* 内容块 ContentBlock ***********/
+#ContentBlock {
+	margin:0px 6px 0px 0px;
+	padding:10px 0px 10px 10px;
+	background: url("ContentBlock.gif") repeat top left;
+	width: 98%;
+	min-width:900px;
+	display: inline-block;
+	border-top:2px solid #DDDCE4;
+}
+
+/* 表扩展管理 */
+#ContentExtendManage {
+	width:700px;
+	margin:15px 0px;
+	font-family: 微软雅黑,Arial,宋体;
+	color:#717171;
+}
+#ContentExtendManage .item, #ContentExtendManage .item_hover  {
+	padding:10px;
+	width:90%;
+	margin:0px 10px 20px 0px;
+	display:block;
+	cursor:default;
+	text-shadow: #fff 1px 1px 0;
+	position: relative;
+	border:1px solid #E3E3E3;
+	border-radius: 5px;
+	background:url("Listbj.gif") repeat-x left top white;
+}
+
+#ContentExtendManage .item_hover {
+	background:url("Listbj01.gif") repeat-x left top white;
+	border-radius: 5px;
+	border:2px solid #DBDBDB;
+	padding:9px;
+}
+
+#ContentExtendManage h3 {
+	font-size:14px;
+	margin:10px;
+	color:#73889B;
+}
+#ContentExtendManage h3 i {
+	font-size:12px;
+	color:#BBBBBB;
+	margin:1px;
+}
+#ContentExtendManage h3 font{
+	font-size:10px;
+	color:#BBBBBB;
+	font-weight:normal;
+}
+#ContentExtendManage i{
+	font-size:10px;
+}
+#ContentExtendManage em {
+	color:#0055AA;
+	cursor:pointer;
+	font-size:10px;
+}
+
+#ContentExtendManage a.button {
+	width:93px;
+	height:20px;
+	padding:5px 0px;
+	border:0px;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	float:right;
+	position:absolute;
+	right:20px;
+	top:20px;
+	cursor:pointer;
+	background:url(button.gif) no-repeat -3px -34px;
+	font-family: 微软雅黑,Arial,宋体;
+	color:#73889B;
+}
+#ContentExtendManage a.button:hover {
+	background:url(button.gif) no-repeat -3px -2px;
+}
+
+#ContentExtendManage p, #ContentExtendManage font , #ContentExtendManage i{
+	margin:2px 10px;
+}
+
+#ContentExtendManage .SumDiv {
+	margin:20px 50px 0px 10px;
+}
+
+/* 数据表样式 */
+
+.table {
+	color:#414B56;
+	width:98%;
+	margin-top:5px;
+}
+.table .button { 
+	font-size:14px; 
+}
+.table tr th{
+	background:#DDDCE4;
+	padding:1px;
+	font-size:14px;
+	padding:3px 18px;
+	vertical-align:top;
+	white-space:nowrap;
+}
+.table tr th a{
+	color:blue;
+}
+.table tr th font{
+	font-weight:normal;
+	display:block;
+	font-size:12px;
+	color:#009;
+	margin-top:3px;
+}
+.table tr{
+	background:#EFEFEF;
+	font-size:12px;
+}
+.table tr td{
+	padding:3px 5px;
+}
+.table tr td div{
+	padding:4px 8px;
+	word-break: break-all;	/* 强制换行 */
+	word-wrap: break-word;
+}
+.table tr .td1{
+	width:39px;
+	padding:3px 15px;
+}
+.table tr .td1_1{
+	padding:3px 5px;
+	color:#D3DCE3;
+	font-size:13px;
+}
+.table .odd{
+	background:#F7F7F7;
+}
+.table .marked{
+	background:#FFDFBF;
+}
+.table .where_mark{
+	border:1px solid #FC9;
+}
+.table .onmouseover{
+	background:#D9F7CA;
+}
+.table td {
+	white-space:nowrap;
+}
+
+/* ico */
+.table tr td.ActionTd {
+	background:#EEEEF0;
+	font-size:14px;
+	border-bottom:1px solid #C5C5C5;
+	height:35px;
+}
+.ActionTd a {
+	display:block;
+	color:blue;
+	float:left;
+}
+.ActionTd span {
+	margin:0px 5px;	
+	float:left;
+	display:block;
+	height:20px;
+}
+
+/* 表插入数据 */
+#SetLineNum, #SetLineAddTitleText {width:30px;}
+
+/* 表结构 */
+#TableBlock {
+	display:none;
+}
+#TableAddLint {float:left;margin-left:50px;}
+
+
+/* 表数据 */
+.ListData {
+	position: relative;
+	margin:35px 0px;
+	_height:100px; /* 不定高度Ie6不行*/
+}
+#TableDataBlock {
+	/*overflow: scroll;
+	overflow-y: scroll;
+	background:#F2F2F2;*/
+	/*width:97.8%;*/
+	padding-bottom:40px;
+	display:none;
+	padding:0px;
+	position: relative;
+	z-index:1;
+}
+#PageListTop {
+	position:absolute;
+	top:-33px;
+	z-index:15;
+	padding:0px;
+	margin:3px 1px 0px 1px;
+}
+
+.SqlNotice {
+	font-size:14px;
+}
+.SqlSuccess {
+	padding:5px 0px 2px 0px;
+	/*border:2px solid #00FF00;*/
+	background:#ECFEDE;
+}
+.SqlError {
+	padding:5px 0px 2px 0px;
+	/*border:2px solid #FFD700;*/
+	background:#FEFAE9;
+}
+
+/* 表搜索数据 */
+.search_input {
+	width:333px;
+}
+.search_select {
+	width:100px;
+	margin-left:10px;
+}
+
+/* LIST PAGE */
+#PageList {
+	/*padding:5px;*/
+	background:#F6F6F6;
+	margin-top:5px;
+}
+#PageListTop a, #PageList a{
+	font-size:12px;
+	margin:3px;
+	color:blue;
+	padding:1px 5px;
+	font-weight:bold;
+}
+#PageListTop a:hover, #PageList a:hover{
+	background:#F2F3F4;
+	border:1px solid #779CBD;
+	padding:0px 4px;
+}
+#GetTableData {
+	display:none;
+}
+#PageListTop a.page_now, #PageList a.page_now{
+	font-size:16px;
+	text-decoration: underline;
+}
+
+#page_loading {
+	position: absolute;
+	top:130px;
+	left:230px;
+	background:#F9F9F9;
+	border:1px solid #D4D4D4;
+	z-index:100;
+}
+#page_loading_img {
+	width:220px;
+	height:19px;
+	background:url(../../images/loading.gif);
+}
+#page_loading b{
+	margin-left:10px;
+	font-size:13px;
+	color:#707070;
+}
+#PageListTop input, #PageList input{
+	padding:1px 4px;
+}
+.ScreenSumBlock {
+	font-size:13px;
+	margin-left:13px;
+	color:#484848;
+}
+#ScreenSum {
+	margin-left:1px;
+}
+
+.OSqlNotice {
+	display: block;
+    /*float: left;
+	width: 87.5%;*/
+	
+}
+input.execute_sql {
+	font-size:14px;
+	margin-left:15px;
+	float:right;
+	padding:3px 8px;
+}
+#SqlForm {
+	margin:1px;
+}
+#TableSearch input, #TableInsert input  {
+	font-size:14px;
+}
+
+#TableSearch .ActionTd {
+	text-align:right;
+}
+#TableSearch select {
+	font: 13px Arial;
+	width:130px;
+}
+
+/* 确认操作SQL*/
+#operation_sql {
+	display:none;
+	margin-bottom:5px;
+}
+#operation_sql textarea {
+	font: 14px Arial;
+    width: 98.5%;
+	height:auto;
+	padding:5px;
+	overflow:hidden;
+	resize: vertical;
+}
+.warning_sql_text {
+	border:1px solid #FF0000;
+	background:#FFFFCC;
+}
+.success_sql_text {
+	border:1px solid #2EC932;
+	background:#FBFFF7;
+
+}
+#confirm_sql {
+	display:none;
+}
+
+
+.PRI {
+	border-bottom:2px solid #FD8E7B;
+	padding-bottom:1px;
+}
+.UNI {
+	border-bottom:2px solid #93DA67;
+	padding-bottom:1px;
+}
+.MUL {
+	border-bottom:2px solid #A9CDDE;
+	padding-bottom:1px;
+}
+
+/* Sql编辑 ***************************/
+#sql_post{
+	/*
+	width:99.5%;
+	font: 12px Arial;
+	overflow:hidden;
+	height:100px;
+	*/
+	display:none;
+}
+/* CodeMirror ****/
+.CodeMirror {
+  line-height: 1em;
+  font-family: monospace;
+  font: 13px Arial;
+  border: 1px solid #BDCECC;
+  background:#fff;
+}
+
+.CodeMirror-scroll {
+  overflow: auto;
+  min-height:75px;
+  _height: 75px;
+  /* This is needed to prevent an IE[67] bug where the scrolled content
+     is visible outside of the scrolling box. */
+  position: relative;
+}
+
+.CodeMirror-gutter {
+  position: absolute; left: 0; top: 0;
+  background-color: #f7f7f7;
+  border-right: 1px solid #eee;
+  min-width: 2em;
+  height: 100%;
+}
+.CodeMirror-gutter-text {
+  color: #aaa;
+  text-align: right;
+  padding: .4em .2em .4em .4em;
+}
+.CodeMirror-lines {
+  padding: .4em;
+}
+
+.CodeMirror pre {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border-width: 0; margin: 0; padding: 0; background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0; margin: 0;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+.CodeMirror textarea {
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
+
+.CodeMirror-cursor {
+  z-index: 10;
+  position: absolute;
+  visibility: hidden;
+  border-left: 1px solid black !important;
+}
+.CodeMirror-focused .CodeMirror-cursor {
+  visibility: visible;
+}
+
+span.CodeMirror-selected {
+  background: #ccc !important;
+  color: HighlightText !important;
+}
+.CodeMirror-focused span.CodeMirror-selected {
+  background: Highlight !important;
+}
+.CodeMirror-matchingbracket {color: #FFFFFF !important;background:#33CC00}
+.CodeMirror-nonmatchingbracket {color: #f22 !important;}
+.cm-s-default span.cm-keyword {color: #909;}
+.cm-s-default span.cm-UpKeyword {color: #909;text-transform:uppercase;}
+.cm-s-default span.bold {font-weight:bold;}
+.cm-s-default span.cm-atom {color: #219;}
+.cm-s-default span.cm-number {color: blue;}
+.cm-s-default span.cm-def {color: #00f;}
+.cm-s-default span.cm-variable {color: black;}
+.cm-s-default span.cm-types {color: #05a;}
+.cm-s-default span.cm-field {color: green;}
+.cm-s-default span.cm-property {color: black;}
+.cm-s-default span.cm-operator {color: magenta;}
+.cm-s-default span.cm-comment {color: #a50;}
+.cm-s-default span.cm-string {color: green;}
+.cm-s-default span.cm-meta {color: #555;}
+.cm-s-default span.cm-error {color: #f00;}
+.cm-s-default span.cm-qualifier {color: #555;}
+.cm-s-default span.cm-function {color: red;}
+.cm-s-default span.cm-bracket {color: #cc7;}
+.cm-s-default span.cm-tag {color: #170;}
+.cm-s-default span.cm-attribute {color: #00c;}
+
+.notice {
+	width: 97.3%;
+	padding: 2px 0px;
+	border: 2px solid gold;
+	background: #FFD;
+	font-size:14px;
+}
+#OP_SqlNotice {
+	word-break: break-all;	/* 强制换行 */
+	word-wrap: break-word;
+}
+/* ContentBlock END ******************/
+
+
+/* 右键菜单 */
+.AmysqlMenu {
+	background-color: #FCFCFC;
+    border: 1px solid #919191;
+    border-radius: 3px;
+    box-shadow: 0 0 7px black;
+    padding: 2px;
+    _width: 200px;
+	min-width:180px;
+}
+.AmysqlMenu ul, .AmysqlMenu li{list-style:none;margin:0px;padding:0px;word-break: break-all;	/* 强制换行 */}
+.AmysqlMenu .item, .AmysqlMenu .item2{color:#000000;list-style:none;margin:0px;padding:0px;height:15px;display:block;padding:5px 15px 5px 0px;font-size:13px;}
+.AmysqlMenu .item2{color:#CFCFC7}
+.AmysqlMenu a {cursor:default;}
+.AmysqlMenu .YitemOver, .AmysqlMenu .NitemOver{background-color:#2f6bc3;color:#fff;cursor:default;}
+.AmysqlMenu .NitemOver{color:#CFCFC7;background:#FCFCFC;}
+.AmysqlMenu .separator{width:100%;height:1px;line-height:1px;overflow:hidden;font-size:1px;background-color:#CFCFC7;margin:3px 1px;padding:0px;}
+
+
+/* 数据库页 */
+#DatabaseDataBlock {
+	padding-bottom:40px;
+	display:none;
+	padding:0px;
+	position: relative;
+	z-index:1;
+}
+
+#DatabaseDataBlock a.name {
+	font-size:14px;
+	font-weight:bold;
+	color:blue;
+}
+
+
+/* 系统设置页 */
+#AmysqlSystemContent {
+	padding:0px 10px;
+	margin-bottom:60px;
+	width:650px;
+	color:#484848;
+}
+#AmysqlSystemContent p {
+	margin:3px 0px;
+}
+#AmysqlSystemContent #submit {
+	font-size:14px;
+}
+#AmysqlSystemContent .block {
+	padding:8px 25px 10px 25px;
+	margin:20px 0px;
+	display:block;
+	cursor:default;
+	text-shadow: #fff 1px 1px 0;
+	position: relative;
+	border:1px solid #E3E3E3;
+	border-radius: 5px;
+	background:url("Listbj01.gif") repeat-x left top white;
+}
+#AmysqlSystemContent .block h1{
+	font-size:14px;
+	color:#6D6D6D;
+	margin:0px 0px 8px -15px;
+}
+#AmysqlSystemContent #time {
+	text-align:right;
+	color:#959595;
+}
+#AmysqlSystemContent i {
+	color:#959595;
+	font-size:11px;
+	margin:0px;
+}

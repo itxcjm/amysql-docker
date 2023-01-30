@@ -1,0 +1,59 @@
+body {
+	width:96%;
+}
+#AmysqlTagList {
+	padding:3px 10px;
+	width:96%;
+	font-family: Arial,微软雅黑,宋体;
+	color:#717171;
+}
+
+#AmysqlTagList .item {
+	width:95%;
+	height:45px;
+	display:block;
+	text-shadow: #fff 1px 1px 0;
+}
+#AmysqlTagList  a.item_list {
+	padding:7px 9px;
+	width:99%;
+	display:block;
+	font-size:12px;
+	color:#4F4F4F;
+	text-decoration: none;
+	float:left;
+	border-radius: 5px;
+	margin:0px 0px 6px 0px;
+}
+#AmysqlTagList a.item_list:hover {
+	background:url("bj.gif") repeat-x left top white;
+	border-radius: 5px;
+	border:1px solid #EBEBEB;
+	padding:6px 8px;
+}
+
+#AmysqlTagList a i{
+	display:block;
+	float:left;
+}
+#AmysqlTagList a i em{
+	color:#ADADAD;
+	font-size:10px;
+}
+
+#AmysqlTagList a span{
+	font-size:12px;
+	display:block;
+	float:right;
+}
+
+
+#AmysqlTagList .close {
+	padding:10px;
+}
+
+#AmysqlTagList .SumDiv {
+	padding:10px;
+	margin-top:10px;
+	width:92%;
+}

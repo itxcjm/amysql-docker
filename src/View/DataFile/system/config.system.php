@@ -1,0 +1,1 @@
+<?php //{"SqlLine":3,"TableDataLine":100,"TableResultContentLimit":300,"time":"2013-01-06 17:43:38","language":"zh","SqlLogLimit":100,"LogoutNotice":1,"SqlUppercase":1,"TableShowIndex":1,"TableKeyDownGoPage":1,"SqlBold":1,"TableQueryCountCache":0,"TableAccurateQuery":0}
